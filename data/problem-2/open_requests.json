@@ -1,0 +1,44 @@
+[
+  {
+    "request_id": "REQ-0001",
+    "traveler_name": "Kavya Rao",
+    "flight_id": "FL-731",
+    "hotel_id": "HTL-TYO-008",
+    "adults": 1,
+    "child_ages": [],
+    "large_bags": 1,
+    "small_bags": 1,
+    "pickup": "2027-04-08T09:45",
+    "car_type": null,
+    "price_inr": 4500
+  },
+  {
+    "request_id": "REQ-0002",
+    "traveler_name": "Arjun and Meera",
+    "flight_id": "FL-501",
+    "hotel_id": "HTL-OSA-001",
+    "adults": 2,
+    "child_ages": [],
+    "large_bags": 2,
+    "small_bags": 2,
+    "pickup": "2027-04-09T10:15",
+    "car_type": "SEDAN",
+    "price_inr": 9000
+  },
+  {
+    "request_id": "REQ-0003",
+    "traveler_name": "Iyer family",
+    "flight_id": "FL-1193",
+    "hotel_id": "HTL-AUH-003",
+    "adults": 2,
+    "child_ages": [
+      3,
+      8
+    ],
+    "large_bags": 3,
+    "small_bags": 2,
+    "pickup": "2027-04-11T09:00",
+    "car_type": null,
+    "price_inr": 1300
+  }
+]

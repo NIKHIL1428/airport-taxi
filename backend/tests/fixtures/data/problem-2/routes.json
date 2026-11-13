@@ -1,0 +1,5 @@
+[
+ {"airport":"NRT","city":"Tokyo","area":"Ueno","distance_km":73.3,"drive_minutes":90,"price_min_inr":10200,"price_max_inr":16800},
+ {"airport":"KIX","city":"Osaka","area":"Namba","distance_km":45,"drive_minutes":55,"price_min_inr":6000,"price_max_inr":10000},
+ {"airport":"DXB","city":"Dubai","area":"Dubai Marina","distance_km":35,"drive_minutes":40,"price_min_inr":3000,"price_max_inr":6000}
+]

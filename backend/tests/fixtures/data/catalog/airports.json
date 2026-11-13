@@ -1,0 +1,6 @@
+[
+ {"code":"NRT","name":"Narita International Airport","city":"Tokyo","country":"JP","timezone":"Asia/Tokyo","serves_cities":["Tokyo"]},
+ {"code":"KIX","name":"Kansai International Airport","city":"Osaka","country":"JP","timezone":"Asia/Tokyo","serves_cities":["Osaka","Kyoto"]},
+ {"code":"DXB","name":"Dubai International Airport","city":"Dubai","country":"AE","timezone":"Asia/Dubai","serves_cities":["Dubai","Abu Dhabi"]},
+ {"code":"BLR","name":"Kempegowda International Airport","city":"Bengaluru","country":"IN","timezone":"Asia/Kolkata"}
+]

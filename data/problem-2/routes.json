@@ -1,0 +1,299 @@
+[
+  {
+    "airport": "AUH",
+    "city": "Abu Dhabi",
+    "area": "Al Maryah",
+    "distance_km": 35.7,
+    "drive_minutes": 35,
+    "price_min_inr": 2400,
+    "price_max_inr": 4500
+  },
+  {
+    "airport": "AUH",
+    "city": "Abu Dhabi",
+    "area": "Corniche",
+    "distance_km": 41.7,
+    "drive_minutes": 39,
+    "price_min_inr": 2800,
+    "price_max_inr": 5300
+  },
+  {
+    "airport": "AUH",
+    "city": "Abu Dhabi",
+    "area": "Saadiyat",
+    "distance_km": 32.8,
+    "drive_minutes": 33,
+    "price_min_inr": 2200,
+    "price_max_inr": 4200
+  },
+  {
+    "airport": "AUH",
+    "city": "Abu Dhabi",
+    "area": "Yas Island",
+    "distance_km": 9.9,
+    "drive_minutes": 17,
+    "price_min_inr": 800,
+    "price_max_inr": 1400
+  },
+  {
+    "airport": "DXB",
+    "city": "Dubai",
+    "area": "Al Barsha",
+    "distance_km": 30.1,
+    "drive_minutes": 31,
+    "price_min_inr": 2100,
+    "price_max_inr": 3900
+  },
+  {
+    "airport": "DXB",
+    "city": "Dubai",
+    "area": "Deira",
+    "distance_km": 8.2,
+    "drive_minutes": 16,
+    "price_min_inr": 700,
+    "price_max_inr": 1200
+  },
+  {
+    "airport": "DXB",
+    "city": "Dubai",
+    "area": "Downtown",
+    "distance_km": 14.4,
+    "drive_minutes": 20,
+    "price_min_inr": 1100,
+    "price_max_inr": 2000
+  },
+  {
+    "airport": "DXB",
+    "city": "Dubai",
+    "area": "Dubai Marina",
+    "distance_km": 38.6,
+    "drive_minutes": 37,
+    "price_min_inr": 2600,
+    "price_max_inr": 4900
+  },
+  {
+    "airport": "DXB",
+    "city": "Abu Dhabi",
+    "area": "Al Maryah",
+    "distance_km": 168.0,
+    "drive_minutes": 129,
+    "price_min_inr": 10300,
+    "price_max_inr": 20400
+  },
+  {
+    "airport": "DXB",
+    "city": "Abu Dhabi",
+    "area": "Corniche",
+    "distance_km": 175.1,
+    "drive_minutes": 134,
+    "price_min_inr": 10800,
+    "price_max_inr": 21300
+  },
+  {
+    "airport": "DXB",
+    "city": "Abu Dhabi",
+    "area": "Saadiyat",
+    "distance_km": 159.5,
+    "drive_minutes": 123,
+    "price_min_inr": 9800,
+    "price_max_inr": 19400
+  },
+  {
+    "airport": "DXB",
+    "city": "Abu Dhabi",
+    "area": "Yas Island",
+    "distance_km": 148.6,
+    "drive_minutes": 115,
+    "price_min_inr": 9200,
+    "price_max_inr": 18100
+  },
+  {
+    "airport": "HND",
+    "city": "Tokyo",
+    "area": "Asakusa",
+    "distance_km": 21.9,
+    "drive_minutes": 34,
+    "price_min_inr": 3500,
+    "price_max_inr": 5500
+  },
+  {
+    "airport": "HND",
+    "city": "Tokyo",
+    "area": "Ginza",
+    "distance_km": 17.8,
+    "drive_minutes": 29,
+    "price_min_inr": 3000,
+    "price_max_inr": 4600
+  },
+  {
+    "airport": "HND",
+    "city": "Tokyo",
+    "area": "Shibuya",
+    "distance_km": 18.6,
+    "drive_minutes": 30,
+    "price_min_inr": 3100,
+    "price_max_inr": 4800
+  },
+  {
+    "airport": "HND",
+    "city": "Tokyo",
+    "area": "Shinagawa",
+    "distance_km": 12.7,
+    "drive_minutes": 24,
+    "price_min_inr": 2400,
+    "price_max_inr": 3500
+  },
+  {
+    "airport": "HND",
+    "city": "Tokyo",
+    "area": "Shinjuku",
+    "distance_km": 22.6,
+    "drive_minutes": 35,
+    "price_min_inr": 3600,
+    "price_max_inr": 5700
+  },
+  {
+    "airport": "HND",
+    "city": "Tokyo",
+    "area": "Ueno",
+    "distance_km": 23.5,
+    "drive_minutes": 36,
+    "price_min_inr": 3800,
+    "price_max_inr": 5900
+  },
+  {
+    "airport": "KIX",
+    "city": "Osaka",
+    "area": "Namba",
+    "distance_km": 46.8,
+    "drive_minutes": 61,
+    "price_min_inr": 6800,
+    "price_max_inr": 11000
+  },
+  {
+    "airport": "KIX",
+    "city": "Osaka",
+    "area": "Shin-Osaka",
+    "distance_km": 54.1,
+    "drive_minutes": 69,
+    "price_min_inr": 7700,
+    "price_max_inr": 12600
+  },
+  {
+    "airport": "KIX",
+    "city": "Osaka",
+    "area": "Tennoji",
+    "distance_km": 45.3,
+    "drive_minutes": 59,
+    "price_min_inr": 6600,
+    "price_max_inr": 10700
+  },
+  {
+    "airport": "KIX",
+    "city": "Osaka",
+    "area": "Umeda",
+    "distance_km": 50.3,
+    "drive_minutes": 65,
+    "price_min_inr": 7200,
+    "price_max_inr": 11800
+  },
+  {
+    "airport": "KIX",
+    "city": "Kyoto",
+    "area": "Arashiyama",
+    "distance_km": 98.3,
+    "drive_minutes": 117,
+    "price_min_inr": 13500,
+    "price_max_inr": 22300
+  },
+  {
+    "airport": "KIX",
+    "city": "Kyoto",
+    "area": "Gion",
+    "distance_km": 105.5,
+    "drive_minutes": 125,
+    "price_min_inr": 14400,
+    "price_max_inr": 23900
+  },
+  {
+    "airport": "KIX",
+    "city": "Kyoto",
+    "area": "Higashiyama",
+    "distance_km": 104.7,
+    "drive_minutes": 124,
+    "price_min_inr": 14300,
+    "price_max_inr": 23700
+  },
+  {
+    "airport": "KIX",
+    "city": "Kyoto",
+    "area": "Kawaramachi",
+    "distance_km": 104.8,
+    "drive_minutes": 124,
+    "price_min_inr": 14300,
+    "price_max_inr": 23800
+  },
+  {
+    "airport": "KIX",
+    "city": "Kyoto",
+    "area": "Kyoto Station",
+    "distance_km": 101.7,
+    "drive_minutes": 121,
+    "price_min_inr": 13900,
+    "price_max_inr": 23100
+  },
+  {
+    "airport": "NRT",
+    "city": "Tokyo",
+    "area": "Asakusa",
+    "distance_km": 70.8,
+    "drive_minutes": 87,
+    "price_min_inr": 9900,
+    "price_max_inr": 16300
+  },
+  {
+    "airport": "NRT",
+    "city": "Tokyo",
+    "area": "Ginza",
+    "distance_km": 75.2,
+    "drive_minutes": 92,
+    "price_min_inr": 10500,
+    "price_max_inr": 17200
+  },
+  {
+    "airport": "NRT",
+    "city": "Tokyo",
+    "area": "Shibuya",
+    "distance_km": 82.5,
+    "drive_minutes": 100,
+    "price_min_inr": 11400,
+    "price_max_inr": 18800
+  },
+  {
+    "airport": "NRT",
+    "city": "Tokyo",
+    "area": "Shinagawa",
+    "distance_km": 79.7,
+    "drive_minutes": 97,
+    "price_min_inr": 11100,
+    "price_max_inr": 18200
+  },
+  {
+    "airport": "NRT",
+    "city": "Tokyo",
+    "area": "Shinjuku",
+    "distance_km": 81.6,
+    "drive_minutes": 99,
+    "price_min_inr": 11300,
+    "price_max_inr": 18700
+  },
+  {
+    "airport": "NRT",
+    "city": "Tokyo",
+    "area": "Ueno",
+    "distance_km": 73.3,
+    "drive_minutes": 90,
+    "price_min_inr": 10200,
+    "price_max_inr": 16800
+  }
+]

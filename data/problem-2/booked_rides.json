@@ -1,0 +1,44 @@
+[
+  {
+    "ride_id": "RIDE-0001",
+    "company_id": "TX-JP-01",
+    "vehicle_id": "SC-2",
+    "start": "2027-04-10T11:00",
+    "end": "2027-04-10T14:00"
+  },
+  {
+    "ride_id": "RIDE-0002",
+    "company_id": "TX-AE-01",
+    "vehicle_id": "FT-1",
+    "start": "2027-04-10T05:00",
+    "end": "2027-04-10T07:00"
+  },
+  {
+    "ride_id": "RIDE-0003",
+    "company_id": "TX-AE-03",
+    "vehicle_id": "GF-1",
+    "start": "2027-04-09T14:00",
+    "end": "2027-04-09T16:00"
+  },
+  {
+    "ride_id": "RIDE-0004",
+    "company_id": "TX-JP-05",
+    "vehicle_id": "KA-4",
+    "start": "2027-04-11T13:00",
+    "end": "2027-04-11T15:00"
+  },
+  {
+    "ride_id": "RIDE-0005",
+    "company_id": "TX-JP-03",
+    "vehicle_id": "EP-1",
+    "start": "2027-04-12T09:00",
+    "end": "2027-04-12T11:00"
+  },
+  {
+    "ride_id": "RIDE-0006",
+    "company_id": "TX-JP-03",
+    "vehicle_id": "EP-1",
+    "start": "2027-04-11T15:00",
+    "end": "2027-04-11T17:00"
+  }
+]

@@ -1,0 +1,8 @@
+[
+ {"company_id":"TX-JP-01","name":"Sakura Cabs","airports":["NRT","HND"],"areas":[{"city":"Tokyo","area":"Asakusa"},{"city":"Tokyo","area":"Ueno"}],"service_from":"06:00","service_until":"23:00","rating":4.4,
+  "vehicles":[{"vehicle_id":"SC-1","type":"SEDAN","seats":4,"large_bags":2,"small_bags":2},{"vehicle_id":"SC-2","type":"SUV","seats":6,"large_bags":4,"small_bags":3}]},
+ {"company_id":"TX-JP-02","name":"Fuji Vans","airports":["NRT"],"areas":[{"city":"Tokyo","area":"Ueno"}],"service_from":"00:00","service_until":"23:59","rating":4.1,
+  "vehicles":[{"vehicle_id":"FV-1","type":"SUV","seats":7,"large_bags":5,"small_bags":4}]},
+ {"company_id":"TX-AE-01","name":"Marina Rides","airports":["DXB"],"areas":[{"city":"Dubai","area":"Dubai Marina"}],"service_from":"05:00","service_until":"01:00","rating":4.6,
+  "vehicles":[{"vehicle_id":"MR-1","type":"SEDAN","seats":4,"large_bags":2,"small_bags":2}]}
+]

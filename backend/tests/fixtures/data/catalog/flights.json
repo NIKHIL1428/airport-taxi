@@ -1,0 +1,70 @@
+[
+ {
+  "flight_id": "FL-401",
+  "airline": "AirVeda",
+  "flight_number": "AV 520",
+  "from": "BLR",
+  "to": "NRT",
+  "departure_local": "2027-04-09T23:50:00",
+  "arrival_local": "2027-04-10T10:30:00",
+  "stops": 0,
+  "duration_minutes": 430,
+  "price_per_seat": {
+   "amount": 25200,
+   "currency": "INR"
+  },
+  "seats_left": 9,
+  "cabin": "ECONOMY"
+ },
+ {
+  "flight_id": "FL-900",
+  "airline": "AirVeda",
+  "flight_number": "AV 900",
+  "from": "BLR",
+  "to": "DXB",
+  "departure_local": "2027-04-10T20:00:00",
+  "arrival_local": "2027-04-10T23:15:00",
+  "stops": 0,
+  "duration_minutes": 225,
+  "price_per_seat": {
+   "amount": 15000,
+   "currency": "INR"
+  },
+  "seats_left": 9,
+  "cabin": "ECONOMY"
+ },
+ {
+  "flight_id": "FL-002",
+  "airline": "AirVeda",
+  "flight_number": "AV 521",
+  "from": "NRT",
+  "to": "BLR",
+  "departure_local": "2027-04-10T12:00:00",
+  "arrival_local": "2027-04-10T18:30:00",
+  "stops": 0,
+  "duration_minutes": 480,
+  "price_per_seat": {
+   "amount": 25200,
+   "currency": "INR"
+  },
+  "seats_left": 9,
+  "cabin": "ECONOMY"
+ },
+ {
+  "flight_id": "FL-403",
+  "airline": "AirVeda",
+  "flight_number": "AV 530",
+  "from": "DEL",
+  "to": "NRT",
+  "departure_local": "2027-04-10T07:00:00",
+  "arrival_local": "2027-04-10T16:00:00",
+  "stops": 0,
+  "duration_minutes": 420,
+  "price_per_seat": {
+   "amount": 25000,
+   "currency": "INR"
+  },
+  "seats_left": 9,
+  "cabin": "ECONOMY"
+ }
+]

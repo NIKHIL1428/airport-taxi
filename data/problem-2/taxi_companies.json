@@ -1,0 +1,591 @@
+[
+  {
+    "company_id": "TX-JP-01",
+    "name": "Sakura Cabs",
+    "airports": [
+      "NRT",
+      "HND"
+    ],
+    "areas": [
+      {
+        "city": "Tokyo",
+        "area": "Asakusa"
+      },
+      {
+        "city": "Tokyo",
+        "area": "Ginza"
+      },
+      {
+        "city": "Tokyo",
+        "area": "Shibuya"
+      },
+      {
+        "city": "Tokyo",
+        "area": "Shinagawa"
+      },
+      {
+        "city": "Tokyo",
+        "area": "Shinjuku"
+      },
+      {
+        "city": "Tokyo",
+        "area": "Ueno"
+      }
+    ],
+    "service_from": "06:00",
+    "service_until": "23:00",
+    "rating": 4.4,
+    "vehicles": [
+      {
+        "vehicle_id": "SC-1",
+        "type": "SEDAN",
+        "seats": 4,
+        "large_bags": 2,
+        "small_bags": 2
+      },
+      {
+        "vehicle_id": "SC-2",
+        "type": "SUV",
+        "seats": 6,
+        "large_bags": 4,
+        "small_bags": 3
+      },
+      {
+        "vehicle_id": "SC-3",
+        "type": "SUV",
+        "seats": 6,
+        "large_bags": 4,
+        "small_bags": 3
+      },
+      {
+        "vehicle_id": "SC-4",
+        "type": "HATCHBACK",
+        "seats": 4,
+        "large_bags": 1,
+        "small_bags": 2
+      }
+    ]
+  },
+  {
+    "company_id": "TX-JP-02",
+    "name": "Narita Star Taxi",
+    "airports": [
+      "NRT"
+    ],
+    "areas": [
+      {
+        "city": "Tokyo",
+        "area": "Ginza"
+      },
+      {
+        "city": "Tokyo",
+        "area": "Shibuya"
+      },
+      {
+        "city": "Tokyo",
+        "area": "Shinagawa"
+      },
+      {
+        "city": "Tokyo",
+        "area": "Shinjuku"
+      }
+    ],
+    "service_from": "00:00",
+    "service_until": "23:59",
+    "rating": 4.1,
+    "vehicles": [
+      {
+        "vehicle_id": "NS-1",
+        "type": "SEDAN",
+        "seats": 4,
+        "large_bags": 2,
+        "small_bags": 2
+      },
+      {
+        "vehicle_id": "NS-2",
+        "type": "BUS",
+        "seats": 9,
+        "large_bags": 6,
+        "small_bags": 4
+      }
+    ]
+  },
+  {
+    "company_id": "TX-JP-03",
+    "name": "Edo Premium Cars",
+    "airports": [
+      "NRT",
+      "HND"
+    ],
+    "areas": [
+      {
+        "city": "Tokyo",
+        "area": "Asakusa"
+      },
+      {
+        "city": "Tokyo",
+        "area": "Ginza"
+      },
+      {
+        "city": "Tokyo",
+        "area": "Shibuya"
+      },
+      {
+        "city": "Tokyo",
+        "area": "Shinagawa"
+      },
+      {
+        "city": "Tokyo",
+        "area": "Shinjuku"
+      },
+      {
+        "city": "Tokyo",
+        "area": "Ueno"
+      }
+    ],
+    "service_from": "07:00",
+    "service_until": "22:00",
+    "rating": 4.8,
+    "vehicles": [
+      {
+        "vehicle_id": "EP-1",
+        "type": "SEDAN",
+        "seats": 4,
+        "large_bags": 3,
+        "small_bags": 2
+      },
+      {
+        "vehicle_id": "EP-2",
+        "type": "SUV",
+        "seats": 6,
+        "large_bags": 3,
+        "small_bags": 3
+      }
+    ]
+  },
+  {
+    "company_id": "TX-JP-04",
+    "name": "Haneda Family Rides",
+    "airports": [
+      "HND"
+    ],
+    "areas": [
+      {
+        "city": "Tokyo",
+        "area": "Asakusa"
+      },
+      {
+        "city": "Tokyo",
+        "area": "Ginza"
+      },
+      {
+        "city": "Tokyo",
+        "area": "Shibuya"
+      },
+      {
+        "city": "Tokyo",
+        "area": "Shinagawa"
+      },
+      {
+        "city": "Tokyo",
+        "area": "Shinjuku"
+      },
+      {
+        "city": "Tokyo",
+        "area": "Ueno"
+      }
+    ],
+    "service_from": "05:00",
+    "service_until": "23:59",
+    "rating": 4.6,
+    "vehicles": [
+      {
+        "vehicle_id": "HF-1",
+        "type": "SUV",
+        "seats": 6,
+        "large_bags": 4,
+        "small_bags": 4
+      },
+      {
+        "vehicle_id": "HF-2",
+        "type": "BUS",
+        "seats": 8,
+        "large_bags": 5,
+        "small_bags": 4
+      }
+    ]
+  },
+  {
+    "company_id": "TX-JP-05",
+    "name": "Kansai Airport Taxi",
+    "airports": [
+      "KIX"
+    ],
+    "areas": [
+      {
+        "city": "Osaka",
+        "area": "Namba"
+      },
+      {
+        "city": "Osaka",
+        "area": "Shin-Osaka"
+      },
+      {
+        "city": "Osaka",
+        "area": "Tennoji"
+      },
+      {
+        "city": "Osaka",
+        "area": "Umeda"
+      },
+      {
+        "city": "Kyoto",
+        "area": "Arashiyama"
+      },
+      {
+        "city": "Kyoto",
+        "area": "Gion"
+      },
+      {
+        "city": "Kyoto",
+        "area": "Higashiyama"
+      },
+      {
+        "city": "Kyoto",
+        "area": "Kawaramachi"
+      },
+      {
+        "city": "Kyoto",
+        "area": "Kyoto Station"
+      }
+    ],
+    "service_from": "06:00",
+    "service_until": "23:30",
+    "rating": 4.3,
+    "vehicles": [
+      {
+        "vehicle_id": "KA-1",
+        "type": "HATCHBACK",
+        "seats": 4,
+        "large_bags": 1,
+        "small_bags": 2
+      },
+      {
+        "vehicle_id": "KA-2",
+        "type": "SUV",
+        "seats": 6,
+        "large_bags": 4,
+        "small_bags": 3
+      },
+      {
+        "vehicle_id": "KA-3",
+        "type": "BUS",
+        "seats": 9,
+        "large_bags": 3,
+        "small_bags": 6
+      },
+      {
+        "vehicle_id": "KA-4",
+        "type": "BUS",
+        "seats": 9,
+        "large_bags": 6,
+        "small_bags": 4
+      }
+    ]
+  },
+  {
+    "company_id": "TX-JP-06",
+    "name": "Kyoto Night Cabs",
+    "airports": [
+      "KIX"
+    ],
+    "areas": [
+      {
+        "city": "Kyoto",
+        "area": "Arashiyama"
+      },
+      {
+        "city": "Kyoto",
+        "area": "Gion"
+      },
+      {
+        "city": "Kyoto",
+        "area": "Higashiyama"
+      },
+      {
+        "city": "Kyoto",
+        "area": "Kawaramachi"
+      },
+      {
+        "city": "Kyoto",
+        "area": "Kyoto Station"
+      }
+    ],
+    "service_from": "00:00",
+    "service_until": "23:59",
+    "rating": 4.0,
+    "vehicles": [
+      {
+        "vehicle_id": "KN-1",
+        "type": "SEDAN",
+        "seats": 4,
+        "large_bags": 2,
+        "small_bags": 2
+      },
+      {
+        "vehicle_id": "KN-2",
+        "type": "SUV",
+        "seats": 6,
+        "large_bags": 4,
+        "small_bags": 3
+      }
+    ]
+  },
+  {
+    "company_id": "TX-AE-01",
+    "name": "Falcon Taxi",
+    "airports": [
+      "DXB"
+    ],
+    "areas": [
+      {
+        "city": "Dubai",
+        "area": "Al Barsha"
+      },
+      {
+        "city": "Dubai",
+        "area": "Deira"
+      },
+      {
+        "city": "Dubai",
+        "area": "Downtown"
+      },
+      {
+        "city": "Dubai",
+        "area": "Dubai Marina"
+      }
+    ],
+    "service_from": "00:00",
+    "service_until": "23:59",
+    "rating": 4.2,
+    "vehicles": [
+      {
+        "vehicle_id": "FT-1",
+        "type": "SEDAN",
+        "seats": 4,
+        "large_bags": 2,
+        "small_bags": 2
+      },
+      {
+        "vehicle_id": "FT-2",
+        "type": "SEDAN",
+        "seats": 4,
+        "large_bags": 2,
+        "small_bags": 2
+      },
+      {
+        "vehicle_id": "FT-3",
+        "type": "SUV",
+        "seats": 6,
+        "large_bags": 4,
+        "small_bags": 3
+      },
+      {
+        "vehicle_id": "FT-4",
+        "type": "HATCHBACK",
+        "seats": 4,
+        "large_bags": 1,
+        "small_bags": 2
+      }
+    ]
+  },
+  {
+    "company_id": "TX-AE-02",
+    "name": "Desert Rose Limo",
+    "airports": [
+      "DXB",
+      "AUH"
+    ],
+    "areas": [
+      {
+        "city": "Dubai",
+        "area": "Al Barsha"
+      },
+      {
+        "city": "Dubai",
+        "area": "Deira"
+      },
+      {
+        "city": "Dubai",
+        "area": "Downtown"
+      },
+      {
+        "city": "Dubai",
+        "area": "Dubai Marina"
+      },
+      {
+        "city": "Abu Dhabi",
+        "area": "Al Maryah"
+      },
+      {
+        "city": "Abu Dhabi",
+        "area": "Corniche"
+      },
+      {
+        "city": "Abu Dhabi",
+        "area": "Saadiyat"
+      },
+      {
+        "city": "Abu Dhabi",
+        "area": "Yas Island"
+      }
+    ],
+    "service_from": "06:00",
+    "service_until": "23:00",
+    "rating": 4.7,
+    "vehicles": [
+      {
+        "vehicle_id": "DR-1",
+        "type": "SEDAN",
+        "seats": 4,
+        "large_bags": 3,
+        "small_bags": 2
+      },
+      {
+        "vehicle_id": "DR-2",
+        "type": "SUV",
+        "seats": 6,
+        "large_bags": 4,
+        "small_bags": 4
+      }
+    ]
+  },
+  {
+    "company_id": "TX-AE-03",
+    "name": "Gulf Family Vans",
+    "airports": [
+      "DXB"
+    ],
+    "areas": [
+      {
+        "city": "Dubai",
+        "area": "Al Barsha"
+      },
+      {
+        "city": "Dubai",
+        "area": "Deira"
+      },
+      {
+        "city": "Dubai",
+        "area": "Downtown"
+      },
+      {
+        "city": "Abu Dhabi",
+        "area": "Al Maryah"
+      },
+      {
+        "city": "Abu Dhabi",
+        "area": "Corniche"
+      }
+    ],
+    "service_from": "00:00",
+    "service_until": "23:59",
+    "rating": 4.5,
+    "vehicles": [
+      {
+        "vehicle_id": "GF-1",
+        "type": "SUV",
+        "seats": 7,
+        "large_bags": 4,
+        "small_bags": 4
+      },
+      {
+        "vehicle_id": "GF-2",
+        "type": "BUS",
+        "seats": 9,
+        "large_bags": 6,
+        "small_bags": 6
+      }
+    ]
+  },
+  {
+    "company_id": "TX-AE-04",
+    "name": "Capital Cabs",
+    "airports": [
+      "AUH"
+    ],
+    "areas": [
+      {
+        "city": "Abu Dhabi",
+        "area": "Al Maryah"
+      },
+      {
+        "city": "Abu Dhabi",
+        "area": "Corniche"
+      },
+      {
+        "city": "Abu Dhabi",
+        "area": "Saadiyat"
+      },
+      {
+        "city": "Abu Dhabi",
+        "area": "Yas Island"
+      }
+    ],
+    "service_from": "00:00",
+    "service_until": "23:59",
+    "rating": 4.3,
+    "vehicles": [
+      {
+        "vehicle_id": "CC-1",
+        "type": "SEDAN",
+        "seats": 4,
+        "large_bags": 2,
+        "small_bags": 2
+      },
+      {
+        "vehicle_id": "CC-2",
+        "type": "SUV",
+        "seats": 6,
+        "large_bags": 4,
+        "small_bags": 3
+      }
+    ]
+  },
+  {
+    "company_id": "TX-AE-05",
+    "name": "Marina Rides",
+    "airports": [
+      "DXB"
+    ],
+    "areas": [
+      {
+        "city": "Dubai",
+        "area": "Al Barsha"
+      },
+      {
+        "city": "Dubai",
+        "area": "Dubai Marina"
+      }
+    ],
+    "service_from": "05:00",
+    "service_until": "01:00",
+    "rating": 4.0,
+    "vehicles": [
+      {
+        "vehicle_id": "MR-1",
+        "type": "HATCHBACK",
+        "seats": 4,
+        "large_bags": 1,
+        "small_bags": 2
+      },
+      {
+        "vehicle_id": "MR-2",
+        "type": "SUV",
+        "seats": 6,
+        "large_bags": 3,
+        "small_bags": 3
+      }
+    ]
+  }
+]
