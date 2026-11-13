@@ -1105,3 +1105,23 @@ html[data-theme="dark"] .badge-shared { color: #c4b5fd; }
 .shared-note { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 10px; }
 .booking .shared-note { margin: 0; padding: 12px 24px; border-top: 1px solid var(--border); }
 .my-offers .chip .badge-shared { margin-left: 4px; }
+
+/* ---------- Supplier: list of travelers (click a name to open the details) ---------- */
+.traveler-list-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin: 16px 0 8px; }
+.traveler-list-head .link-button { padding: 0; font-weight: 500; }
+.traveler-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.traveler-list > li { border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); overflow: hidden; }
+.traveler-list > li.open { border-color: var(--primary); box-shadow: 0 0 0 1px var(--primary); }
+.traveler-row {
+  width: 100%; display: flex; align-items: center; gap: 12px; padding: 12px 16px;
+  background: none; border: 0; color: var(--text); font: inherit; text-align: left; cursor: pointer;
+}
+.traveler-row:hover { background: var(--surface-2); }
+.traveler-row-name { font-weight: 650; }
+.traveler-row-flight { color: var(--muted); font-size: 0.9rem; display: inline-flex; align-items: center; gap: 4px; }
+.traveler-row-chevron { margin-left: auto; color: var(--muted); font-size: 0.75rem; }
+.traveler-list > li .request-panel { border: 0; border-top: 1px solid var(--border); border-radius: 0; box-shadow: none; margin: 0; }
+@media (max-width: 640px) {
+  .traveler-row { flex-wrap: wrap; }
+  .traveler-row-flight { flex-basis: 100%; order: 3; }
+}

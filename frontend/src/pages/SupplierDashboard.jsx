@@ -463,37 +463,53 @@ export default function SupplierDashboard() {
           {data.requests.length > 0 && (
             <>
               <SupplierFilters requests={data.requests} filters={filters} setFilters={setFilters} />
-              <label className="request-picker">
-                Choose a traveler
-                <select value={selected?.request_id || ""} onChange={(e) => setSelectedId(e.target.value)}>
-                  <option value="">
-                    Select a traveler… ({shown.length} {filtersOn ? "match" : "waiting"})
-                  </option>
-                  {shown.map((r) => (
-                    <option key={r.request_id} value={r.request_id}>
-                      {r.traveler_name} · {r.request_id} · {r.flight.to} → {r.hotel.area} · pickup {fmtDateTime(r.pickup)}
-                      {r.my_offers.some((o) => o.status === "OPEN") ? " · offered" : ""}
-                    </option>
-                  ))}
-                </select>
+              {/* One row per traveler: name and flight. Click a row to open its details right under it. */}
+              <div className="traveler-list-head">
+                <span className="muted small">
+                  {shown.length} traveler{shown.length === 1 ? "" : "s"} {filtersOn ? "match your filters" : "waiting"}.
+                  Click a name to see the details.
+                </span>
                 {filtersOn && (
                   <button type="button" className="link-button" onClick={() => setFilters(NO_FILTERS)}>
                     Clear filters
                   </button>
                 )}
-              </label>
+              </div>
               {selectedGone && (
                 <p className="text-warn small">
                   The request you were looking at is no longer open (it was booked or can't be served now). Choose
                   another traveler.
                 </p>
               )}
-              {!selected && !selectedGone && (
-                <EmptyState title="Choose a traveler above" icon="user">
-                  You will see their ride details and can assign one of your cars.
-                </EmptyState>
-              )}
-              {selected && <RequestPanel r={selected} companyId={companyId} onAssigned={load} />}
+              {shown.length === 0 && <p className="muted">No requests match these filters.</p>}
+              <ul className="traveler-list">
+                {shown.map((r) => {
+                  const open = r.request_id === selected?.request_id;
+                  const offered = r.my_offers.some((o) => o.status === "OPEN");
+                  return (
+                    <li key={r.request_id} className={open ? "open" : ""}>
+                      <button
+                        type="button"
+                        className="traveler-row"
+                        aria-expanded={open}
+                        onClick={() => setSelectedId(open ? "" : r.request_id)}
+                      >
+                        <Avatar name={r.traveler_name} size={36} />
+                        <span className="traveler-row-name">{r.traveler_name}</span>
+                        <span className="traveler-row-flight">
+                          <Icon name="plane" size={14} /> {r.flight.flight_number} ({r.flight.flight_id}) ·{" "}
+                          {r.flight.from} → {r.flight.to}
+                        </span>
+                        {offered && <span className="badge badge-open">Offered</span>}
+                        <span className="traveler-row-chevron" aria-hidden="true">
+                          {open ? "▲" : "▼"}
+                        </span>
+                      </button>
+                      {open && <RequestPanel r={r} companyId={companyId} onAssigned={load} />}
+                    </li>
+                  );
+                })}
+              </ul>
             </>
           )}
         </>
